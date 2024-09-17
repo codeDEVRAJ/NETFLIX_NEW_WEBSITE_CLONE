@@ -1,0 +1,215 @@
+/*here some pictures are downloaded if the images as you expected is not visible then sorry for that but if you want to see the inages then you can go on netflix website directly 😊👍*/
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="main">
+        <nav>
+            <span><img width="53px" src="images/netflogo.svg" alt=""></span>
+
+            <div>
+                <button class="btn ">English</button>
+                <button class="btn btn-red-sm">sign in</button>
+            </div>
+        </nav>
+        <div class="box">
+        </div>
+        <div class="hero">
+            <span> Unlimited movies, TV shows and more
+            </span>
+            <span> Starts at ₹149. Cancel anytime.</span>
+            <span>Ready to watch? Enter your email to create or restart your membership.</span>
+
+            <div class="hero-button">
+                <input type="text" placeholder="Email Address">
+                <button class="btn btn-red">Get Started &gt;</button>
+            </div>
+
+        </div>
+
+        <div class="separation"></div>
+    </div>
+
+
+    <section class="first">
+        <div class="trnding">
+            <h1>Trending Now</h1>
+
+
+
+            <div class="b">
+                <button class="tran">india &#9660;</button>
+                <button class="tran">movies &#9660;</button>
+            </div>
+        </div>
+        <div class="fimg">
+            <div class="img">
+                <div class="f">
+                    <img src="https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABRndEPglJaOsZqzcMOwHOPdmb-TVNPQJnwrAmOlF_TZHnuOifkXpFlQ_4brA2xfFQRzZaHZ2Y7fNY_rytfn3KjWO5lAIRXeWZ6Mz5F2gW6Fa7BmtNI95D5RxO_WuiKoiMS8F27lMcl7lkm37N9KndwhbqYaolofh1DV-v2L_aFw8_JlEE8wO-D70rXTzDLVLQrMW_aRCauLe9AFXhaDW-xBAWXgLYZ9EZx133DVOH8Nq5_Eidkb_IL0oAP7CEKjo3dTxoVb6bUOoMd5ANy0P0OUDspRBTg37PKqZObMKGiiB4smQSEyYIRPxswSwqKw90xftubZpu4uvEiOT7yMdqLA.jpg?r=3f1"
+                        alt="1st  trending movie">
+
+                </div>
+                <div class="s"><img
+                        src="https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABagcqGQ10l43PUj28dBZDGebLm_wbIEYeqhE5CRSGqYYlknfO3a9H0LYpksyZMiuqGMYofI3YCZ7RorAFStJkwTGSI5GKa_RMqPUHNSCLpWHifune8BiNLnkePTnApcGQLhnVnjXeQUQFeGh2gBPYiJjIfz8yXNNr5-h1jdFp0bWaFliYOAI32kLUbbDZ-Hkyh5Zos-7T2NiZgwjrly0kRcF_X5zE__TWfjGCp9o2AMqk-bjZmeSryNO2GE5HGceOuYG2EcE9Nh1ycej1DcBY-eFD97Bp6HxMHhum_cirCJP1w0xZLGzpOpDJaUdlyeuu3mu8vOxVf3Zz7w32qpgZ6k.jpg?r=2b9"
+                        alt="2nd trending movie">
+
+
+                </div>
+                <div class="t">
+                    <img src="https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABe1X3_kErU_ERDIfIZoLuLve9e7L2MU30l_flaHcUgyfEMgVwuAqvT7MEco9-650gMIFRJ_K-jLg1ARsKB5IaUFDTa-WqMBnI_oDuOFIwVXXFfccmmPRzzeIdPycobq14tzJvWXm9KFBk8ARLs-m2y33dIatW638mWkcoUm8QhHzIpQbxVXf0B8fD0DYc6FYSXMZIs8Kh1iA0Jud9LV-6Tkd6BWnuiG5CXtJJI-_-t_HUB_5u4a394iSUVKZpouEcqjdYWGHQXMkXRP9BDetCFp57-zeQBQYOAVOcx1qcj9n7DKLdusrVTox8v7-DNjgFGh14PvaKsmvS9duqQ1QSBgAmmIOgAZZYXbPJzRZfpHLHfuwGcg.jpg?r=488"
+                        alt="3rd trending movie">
+                </div>
+                <div class="c">
+                    <img src="https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABReeL_3MPZpYpKz5kLJf61W_5fJv-hWwvAp8T4RimztvpuZMgqWwaTMEhHAVGj7Q4-L8DiTtFwV7nLRSLqUdVKA-UW57RWZmVp6ZoioHhIqk4D8_LnQoeKjGmj5XViPClpBHW8-oqiztU-a1bYw3zdpYt_Mwb0ChiRf9aJeuhrNQkv7--atb0hoVkse-3NvBjw56orKVlEGyMbD4ATs99Ky7Dpa6FsDC3KjOXH6kl30UD9eTfbG7888hxLjYVrdhN-0FIleu95xkQ-pna4ibiUUGGxHm9fOmbJ8UpktbB-9PqWD0xX7TgR9B.jpg?r=aa1"
+                        alt="4th trending movie">
+                </div>
+                <div class="p">
+                    <img src="https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABbWWsr2CwcI9sb3RgpuN3j6Z3MfFuQQolarYKVequNRMdhpIZaX2S4zaJD4nw8wf6-5313yjoPiJbhAnFdGUOV_b4-pjxvT-xXg4YEjaKQLpsm7AofMIrIYA1AeV3wDnIGZXrXTr0QkBn967i1NH42oqPkAdGcJvhuA47yp5y1hoWE5cmUJ6mtPnJZIG69biAgDN_W0adgqkL-UqonyZhDKNPStccANcgMgP0yaoZ3_c7EVO1UYNVSeM5pLuolq1uIBI4IIW7EZ3OelmKwuViNWvVHv4.jpg?r=8df"
+                        alt="5th trending movie">
+                </div>
+                <div class="s">
+                    <img src="https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABUQdyn-frdzffPaBYu66wu80a-6xvDcixL38MSsdCK8VDos7g88J22YBSzHeG7PSxeexq9IrrOgZggtZrt7lJdfYHoeqfMrssZc.jpg?r=a57"
+                        alt="6th trending movie">
+                </div>
+                <div class="se">
+                    <img src="https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABRb5Wfh1k95XK2yC6IyPMClwOX6Fu953iRLZP5bLbM7VffyyEVvuFMr1Ne-s8Ug9Cv0-vXHA4lQJ96hcHT0I0lv9sCM7NHex6euY87RVlVekbkRNCsoHT-YzE0DbfhuY0JhH.jpg?r=ead"
+                        alt="7th trending movie">
+                </div>
+                <div class="e">
+                    <img src="https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABS_Vr6yRYSb-VsqrFStm4pNxkiAO8Vt5OrnUjtjeEIUssiKB_0k2V7lXpaL8P9s8YAFUGm7rYaSpn6XqFgzuAdTS3n0DJKoKWR4.jpg?r=8c7"
+                        alt="8th trending movie">
+                </div>
+                <div class="n">
+                    <img src="https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABTK0gJneVahAm2QxuuF8CjXm3Zcp1_59O0tQyP_17isUL-L4mEEnlyaF98hMWqtEuVuIW0B1jwxbk3FmtYR1K0wIW9USBLEWUK__7UEa4fnU7bmPpMzDxmccnxTmcFObthec.jpg?r=71f"
+                        alt="9th trending movie">
+                </div>
+                <div class="t">
+                    <img src="https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABXGjDDpobbV-fhF0Lex-YKkymI1lv0mhVoix_r0XnJuNjRVwoXku9JN8qjsT3BR5CrYb2R0ac2UJBdrndG18ciYbkMQmzphwjKDFR_5Az_h1X8UefFp4PDfU513GOMAgppDpwcoKcIdmK5vDTIA2aKAux-eZ1q0G5rqBtjlNtw9XLcNcdhz4mKegOT0b8dusvzzmbSqC2Uv25xn9czzw4q08VNFChdqJPZZahkcuPOM4B9RW2DQlw500WUHEjvP0Uj9z2VkKsJuxiIjBR7AwvUuClLxJ.jpg?r=f41"
+                        alt="10th trending movie">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section class="second">
+        <div class="head">
+            <p>More reasons to join</p>
+        </div>
+        <div class="imgs">
+            <div class="box1">
+                <div>Enjoy on your TV</div>
+                <div>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</div>
+
+            </div>
+            <div class="box2">
+                <div> Download your shows to watch offline</div>
+                <div>Save your favourites easily and always have something to watch.</div>
+            </div>
+            <div class="box3">
+                <div>Watch everywhere</div>
+                <div>Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.</div>
+            </div>
+            <div class="box4">
+                <div>Create profiles for kids</div>
+                <div>Send kids on adventures with their favourite characters in a space made just for them — free with
+                    your membership.</div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <div class="separate2">
+        <section class="third">
+
+
+            <h2>Frequently Asked Questions</h2>
+            <div class="que">
+                <span>What is Netflix?</span>
+                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
+                    viewBox="0 0 24 24" style="fill:#FFFFFF;">
+                    <path fill-rule="evenodd"
+                        d="M 11 2 L 11 11 L 2 11 L 2 13 L 11 13 L 11 22 L 13 22 L 13 13 L 22 13 L 22 11 L 13 11 L 13 2 Z">
+                    </path>
+                </svg>
+            </div>
+            <div class="que2">
+                <span>How much does Netflix cost?</span>
+                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
+                    viewBox="0 0 24 24" style="fill:#FFFFFF;">
+                    <path fill-rule="evenodd"
+                        d="M 11 2 L 11 11 L 2 11 L 2 13 L 11 13 L 11 22 L 13 22 L 13 13 L 22 13 L 22 11 L 13 11 L 13 2 Z">
+                    </path>
+                </svg>
+            </div>
+            <div class="que3">
+                <span>Where can I watch?</span>
+                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
+                    viewBox="0 0 24 24" style="fill:#FFFFFF;">
+                    <path fill-rule="evenodd"
+                        d="M 11 2 L 11 11 L 2 11 L 2 13 L 11 13 L 11 22 L 13 22 L 13 13 L 22 13 L 22 11 L 13 11 L 13 2 Z">
+                    </path>
+                </svg>
+            </div>
+
+            <div class="que4">
+                <span>How do I cancel?</span>
+                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
+                    viewBox="0 0 24 24" style="fill:#FFFFFF;">
+                    <path fill-rule="evenodd"
+                        d="M 11 2 L 11 11 L 2 11 L 2 13 L 11 13 L 11 22 L 13 22 L 13 13 L 22 13 L 22 11 L 13 11 L 13 2 Z">
+                    </path>
+                </svg>
+            </div>
+
+            <div class="que5">
+                <span>What can I watch on Netflix?
+                </span>
+                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
+                    viewBox="0 0 24 24" style="fill:#FFFFFF;">
+                    <path fill-rule="evenodd"
+                        d="M 11 2 L 11 11 L 2 11 L 2 13 L 11 13 L 11 22 L 13 22 L 13 13 L 22 13 L 22 11 L 13 11 L 13 2 Z">
+                    </path>
+                </svg>
+
+            </div>
+            <div class="que6">
+                <span>Is Netflix good for kids?
+                </span>
+                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
+                    viewBox="0 0 24 24" style="fill:#FFFFFF;">
+                    <path fill-rule="evenodd"
+                        d="M 11 2 L 11 11 L 2 11 L 2 13 L 11 13 L 11 22 L 13 22 L 13 13 L 22 13 L 22 11 L 13 11 L 13 2 Z">
+                    </path>
+                </svg>
+            </div>
+        </section>
+    </div>
+
+
+    <div class="separate3">
+        <section class="fourth">
+            <div class="heading">
+                <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+            </div>
+            <div class="email">
+                <input type="text" placeholder="Email address">
+
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
