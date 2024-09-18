@@ -1,2 +1,2 @@
 # NETFLIX_NEW_WEBSITE_CLONE
-HEY ,its DEVRAJ here i am going to do clone of netflix website . we are using html and css language for structure of website and styling of website note* i know this is not perfect clone but i try my best
+A frontend-only clone of Netflix's website, built using HTML and CSS. This project showcases the layout and styling similar to Netflix's design. Note that this is a static project and does not include JavaScript functionality, so some interactive features may not work as intended.
