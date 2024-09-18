@@ -1,4 +1,3 @@
-/*here some pictures are downloaded if the images as you expected is not visible then sorry for that but if you want to see the inages then you can go on netflix website directly 😊👍*/
 <!DOCTYPE html>
 <html lang="en">
 
@@ -198,18 +197,81 @@
         </section>
     </div>
 
-
     <div class="separate3">
         <section class="fourth">
             <div class="heading">
                 <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
             </div>
-            <div class="email">
-                <input type="text" placeholder="Email address">
 
+            <div class="email">
+
+                <input type="text" placeholder="Email Address">
+                <button class="btn btn-red">Get Started &gt;</button>
             </div>
+
+
         </section>
     </div>
+
+
+
+    <div class="separate4"></div>
+    <footer>
+        <div class="questions">
+            Questions Call 000-800-919-1694
+        </div>
+        <div class="devraj">
+            <div class="footer-item">
+                <a href="third">FAQ</a>
+                <a href="third">Investor Relations</a>
+                <a href="third">Privacy</a>
+                <a href="third">Speed Test</a>
+                <!-- <a href="third"></a> -->
+            </div>
+            <div class="footer-item">
+                <a href="third">Help Centre</a>
+                <a href="third">Jobs</a>
+                <a href="third">
+                    Cookie Preferences</a>
+                <a href="third">Legal Notices</a>
+                <!-- <a href="third"></a> -->
+
+            </div>
+            <div class="footer-item">
+                <a href="third">
+                    Account</a>
+                <a href="third">
+                    Ways to Watch</a>
+                <a href="third">
+                    Corporate Information</a>
+                <a href="third">Only on Netflix</a>
+                <!-- <a href="third"></a> -->
+            </div>
+            <div class="footer-item">
+                <a href="third">Media Centre</a>
+                <a href="third">
+                    Terms of Use</a>
+                <a href="third">
+                    Contact Us</a>
+                <!-- <a href="third"></a>
+            <a href="third"></a> -->
+
+            </div>
+        </div>
+
+
+    </footer>
+
+
+    <div class="eng">
+        <button> <img width="15px" height="15px" src="images\Screenshot 2024-09-18 152321.png" alt="A^*">
+            English &#9660</button>
+
+    </div>
+    <div class="sd">
+        <p>Netflix india</p>
+    </div>
+
 </body>
 
 </html>
