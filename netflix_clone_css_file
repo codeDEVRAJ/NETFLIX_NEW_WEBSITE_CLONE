@@ -1,4 +1,3 @@
-/*this is the css file for netflix clone*/
 <style>@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&display=swap');
 
 </style>* {
@@ -337,91 +336,32 @@ section .second {
 }
 
 .third {
+    transition: all 1s ease-in-out;
     color: white;
     background-color: black;
     padding: 34px;
 }
 
-.third h2 {
-    text-align: left;
-    font-size: 48px;
-    font-family: sans-serif;
-}
-
-.que {
-    display: flex;
-    /* justify-content: start; */
-    background-color: rgb(33, 33, 33);
-    padding: 24px;
-    max-width: 80vw;
-    /* margin: auto; */
+.third :hover {
     color: white;
-    gap: 68vw;
-    cursor: pointer;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #414141;
 }
 
-.que2 {
-    display: flex;
-    /* justify-content: start; */
-    background-color: rgb(33, 33, 33);
-    padding: 24px;
-    max-width: 80vw;
-    /* margin: auto; */
-    color: white;
-    gap: 65vw;
-    cursor: pointer;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.que3 {
-    display: flex;
-    /* justify-content: start; */
-    background-color: rgb(33, 33, 33);
-    padding: 24px;
-    max-width: 80vw;
-    /* margin: auto; */
-    color: white;
-    gap: 67.25vw;
-    cursor: pointer;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.que4 {
-    display: flex;
-    /* justify-content: start; */
-    background-color: rgb(33, 33, 33);
-    padding: 24px;
-    max-width: 80vw;
-    /* margin: auto; */
-    color: white;
-    gap: 67.90vw;
-    cursor: pointer;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.que5 {
-    display: flex;
-    /* justify-content: start; */
-    background-color: rgb(33, 33, 33);
-    padding: 24px;
-    max-width: 80vw;
-    /* margin: auto; */
-    color: white;
-    gap: 65.25vw;
-    cursor: pointer;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
+.que,
+.que2,
+.que3,
+.que4,
+.que5,
 .que6 {
     display: flex;
-    /* justify-content: start; */
+    justify-content: space-between;
+    /* Ensures equal spacing between text and icon */
+    align-items: center;
+    /* Vertically aligns the items */
     background-color: rgb(33, 33, 33);
     padding: 24px;
     max-width: 80vw;
-    /* margin: auto; */
     color: white;
-    gap: 65.20vw;
     cursor: pointer;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -437,19 +377,106 @@ section .second {
     margin: 0 auto;
     padding: 0 1.5rem;
     content: '1';
+
 }
 
+
 .email {
-    text-align: center;
-    box-sizing: border-box;
-    max-width: 61.5rem;
-    margin: 0 auto;
-    padding: 0 1.5rem;
-    content: '1';
+    flex-wrap: wrap;
+    /* background-color: transparent; */
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.email input {
+    flex-wrap: wrap;
+    background-color: transparent !important;
+    color: white;
+    height: 26px;
+    width: 400px;
+
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 14px;
+
+}
+
+footer .questions {
+    padding: 34px 0;
+    color: white;
+    /* display: inline; */
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    /* max-width: 60vw; */
+    /* margin: auto; */
+
+}
+
+.devraj a {
+    color: white;
+    /* text-decoration: none; */
+}
+
+.footer a {
+    font-size: 14px;
+    color: white;
+    background-color: white;
+}
+
+.footer-item {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 43px;
+    color: white;
+    color: aqua;
+}
+
+.eng {
+    gap: 60px;
+}
+
+.eng button {
+    color: white;
+    background-color: black;
+    padding: 8px;
+    margin: 50px;
+    height: 35px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 109px;
+    border: 2px solid gray;
+    border-radius: 8px;
+}
+
+.eng button img {
     position: relative;
-    margin: 1rem auto 0;
+    margin: -7px;
+    padding: 3px;
+
+}
+
+.sd {
+    margin: 50px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.875rem;
+    font-weight: 400;
+    font-family: sans-serif;
     width: 100%;
-    max-width: 36.625rem;
-    color: black;
-    fill: black;
+    box-sizing: border-box;
+    /* width: 100%; */
+    display: inherit;
+    height: auto;
+    /* color: rgba(255, 255, 255, 0.7); */
+    padding-bottom: 6rem;
 }
