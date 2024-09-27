@@ -1,0 +1,482 @@
+<style>@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&display=swap');
+
+</style>* {
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("images/bckground.jpg");
+    height: 80vh;
+    position: relative;
+    background-size: max(1200px 100vw);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.main.box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.99;
+    background-color: black;
+    position: absolute;
+    top: 0;
+
+}
+
+nav {
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    max-width: 60vw;
+    margin: auto;
+    height: 112px;
+    justify-content: space-between;
+}
+
+nav img {
+    position: relative;
+    z-index: 10;
+    width: 114px;
+    color: red;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: calc(100% - 62px);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    padding: 0 30px;
+
+    gap: 24px;
+    font-family: "Martel sans", sans-serif;
+
+
+
+}
+
+.hero> :nth-child(1) {
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    font-weight: bolder;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+
+.hero-button {
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+.main input {
+    padding: 7px 101px 8px 14px;
+    font-weight: 900;
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+
+}
+
+.img {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: start;
+    padding: -23px;
+    margin: 48px;
+    height: 200px;
+    width: 200px;
+    flex-direction: row;
+    flex-shrink: inherit;
+    flex-wrap: nowrap;
+}
+
+.trnding {
+    background-color: black;
+    color: white;
+    margin: 25px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+
+
+    /* height: 50px;
+    width: 200px; */
+
+}
+
+.fimg {
+    flex-wrap: wrap;
+
+}
+
+.b {
+    padding: -26px;
+    margin: -4px;
+    background-color: black;
+    color: #3498db;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #3498db; */
+    background-color: transparent;
+    /* color: #3498db; */
+    font-size: 1.5em;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+
+.tran {
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    background-color: transparent;
+    height: 40px;
+    width: 90px;
+    cursor: pointer;
+}
+
+section .second {
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.head {
+
+    color: rgb(255, 255, 255);
+    margin: 12px;
+    padding: 35px;
+    height: 0;
+    width: 200px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+
+.imgs {
+    margin: 20px;
+    padding: 35px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+
+.box1 {
+    /* margin: 80px;
+    padding: 100px; */
+    height: 200px;
+    width: 200px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background-color: #3b2f4e;
+    color: whitesmoke;
+
+
+}
+
+.box1 :nth-child(1) {
+    color: white;
+    height: 40px;
+    margin: 20px;
+
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.box1 :nth-child(2) {
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box1 :nth-child(2) .img {
+    width: 50000px;
+
+}
+
+.box2 {
+    /* margin: 80px;
+    padding: 100px; */
+    height: 200px;
+    width: 200px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background-color: #3b2f4e;
+    color: whitesmoke;
+
+}
+
+.box2 :nth-child(1) {
+    color: white;
+    height: 40px;
+    margin: 20px;
+
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.box2 :nth-child(2) {
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box3 {
+    /* margin: 80px;
+    padding: 100px; */
+    height: 200px;
+    width: 200px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background-color: #3b2f4e;
+    color: whitesmoke;
+
+}
+
+.box3 :nth-child(1) {
+    color: white;
+    height: 40px;
+    margin: 20px;
+
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.box3 :nth-child(2) {
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box4 {
+    /* margin: 80px;
+    padding: 100px; */
+    height: 200px;
+    width: 200px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background-color: #3b2f4e;
+    color: whitesmoke;
+
+}
+
+.box4 :nth-child(1) {
+    color: white;
+    height: 40px;
+    margin: 20px;
+
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.box4 :nth-child(2) {
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.third {
+    transition: all 1s ease-in-out;
+    color: white;
+    background-color: black;
+    padding: 34px;
+}
+
+.third :hover {
+    color: white;
+    background-color: #414141;
+}
+
+.que,
+.que2,
+.que3,
+.que4,
+.que5,
+.que6 {
+    display: flex;
+    justify-content: space-between;
+    /* Ensures equal spacing between text and icon */
+    align-items: center;
+    /* Vertically aligns the items */
+    background-color: rgb(33, 33, 33);
+    padding: 24px;
+    max-width: 80vw;
+    color: white;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    box-sizing: border-box;
+    max-width: 61.5rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    content: '1';
+
+}
+
+
+.email {
+    flex-wrap: wrap;
+    /* background-color: transparent; */
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.email input {
+    flex-wrap: wrap;
+    background-color: transparent !important;
+    color: white;
+    height: 26px;
+    width: 400px;
+
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 14px;
+
+}
+
+footer .questions {
+    padding: 34px 0;
+    color: white;
+    /* display: inline; */
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    /* max-width: 60vw; */
+    /* margin: auto; */
+
+}
+
+.devraj a {
+    color: white;
+    /* text-decoration: none; */
+}
+
+.footer a {
+    font-size: 14px;
+    color: white;
+    background-color: white;
+}
+
+.footer-item {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 43px;
+    color: white;
+    color: aqua;
+}
+
+.eng {
+    gap: 60px;
+}
+
+.eng button {
+    color: white;
+    background-color: black;
+    padding: 8px;
+    margin: 50px;
+    height: 35px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 109px;
+    border: 2px solid gray;
+    border-radius: 8px;
+}
+
+.eng button img {
+    position: relative;
+    margin: -7px;
+    padding: 3px;
+
+}
+
+.sd {
+    margin: 50px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.875rem;
+    font-weight: 400;
+    font-family: sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    /* width: 100%; */
+    display: inherit;
+    height: auto;
+    /* color: rgba(255, 255, 255, 0.7); */
+    padding-bottom: 6rem;
+}
